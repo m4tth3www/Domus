@@ -12,9 +12,7 @@ O **Domus** é uma plataforma de gestão de condomínios residenciais desenvolvi
 - **Morador**: Autoriza visitantes, reserva áreas comuns, consulta encomendas e registra ocorrências.
 - **Porteiro**: Registra visitantes, verifica autorizações e controla o recebimento de encomendas.
 
-### 1.2 Requisitos Funcionais (RF) - Mínimo 10
-
-O sistema deve seguir estes requisitos no formato "O sistema deve permitir que [usuário] [ação]":
+### 1.2 Requisitos Funcionais (RF) 
 
 1. **RF01**: O sistema deve permitir que o morador cadastre sua unidade residencial.
 2. **RF02**: O sistema deve permitir que o morador autorize a entrada de visitantes.
@@ -27,9 +25,7 @@ O sistema deve seguir estes requisitos no formato "O sistema deve permitir que [
 9. **RF09**: O sistema deve permitir que o porteiro verifique autorizações de visitantes previamente registradas.
 10. **RF10**: O sistema deve permitir a geração de relatórios de atividades do condomínio.
 
-### 1.3 Requisitos Não Funcionais (RNF) - Mínimo 6 com medidas
-
-Os seguintes requisitos não funcionais possuem metas mensuráveis, cobrindo 5 categorias:
+### 1.3 Requisitos Não Funcionais (RNF)
 
 1. **RNF01**: Tempo de resposta da API deve ser inferior a 200ms para 95% das requisições em horário normal.
 2. **RNF02**: Disponibilidade do sistema deve ser de pelo menos 99,5% ao mês, com manutenção programada excluída.
@@ -38,7 +34,7 @@ Os seguintes requisitos não funcionais possuem metas mensuráveis, cobrindo 5 c
 5. **RNF05**: A interface deve ser compatível com os últimos 2 versões dos navegadores Chrome, Firefox, Safari e Edge.
 6. **RNF06**: O tempo máximo de login bem-sucedido deve ser de 3 segundos a partir da submissão das credenciais.
 
-### 1.4 Regras de Negócio (RN) - Mínimo 5 que existem sem o sistema
+### 1.4 Regras de Negócio (RN)
 
 1. **RN01**: Criança de até 5 anos não paga taxa de reserva de área comum, mas ocupa assento de colo (limitado a 1 por reserva).
 2. **RN02**: Visitante que chega sem autorização prévia deve ser recolhido e o porteiro notificado imediatamente.
