@@ -149,10 +149,18 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    submodule Auth ["Módulo: Autenticação"]
-    submodule Reserves ["Módulo: Reservas"]
-    submodule Comm ["Módulo: Comunicações"]
-    submodule Data ["Módulo: Acesso a Dados"]
+    subgraph Auth ["Módulo: Autenticação"]
+        direction LR
+    end
+    subgraph Reserves ["Módulo: Reservas"]
+        direction LR
+    end
+    subgraph Comm ["Módulo: Comunicações"]
+        direction LR
+    end
+    subgraph Data ["Módulo: Acesso a Dados"]
+        direction LR
+    end
     
     Auth -->|" sessão "|\ Authorization Header
     Reserves -->|" validação "|\ de horário
