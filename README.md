@@ -1,70 +1,66 @@
 # Domus
-O Domus é uma plataforma de gestão de condomínios residenciais desenvolvida com o objetivo de centralizar e facilitar processos administrativos e operacionais. O sistema busca melhorar a comunicação entre moradores, síndicos, porteiros e administradoras, oferecendo ferramentas para gerenciamento de visitantes, encomendas, reservas de áreas comuns e ocorrências.
 
-A plataforma permite que administradoras gerenciem diferentes condomínios em um único ambiente, mantendo os dados e as operações de cada condomínio organizados e separados.
+A plataforma de gestão de condomínios residenciais que centraliza e facilita processos administrativos e operacionais, melhorando a comunicação entre moradores, síndicos, porteiros e administradoras.
 
-2. Objetivos
+## 📋 Visão geral
 
-Centralizar as informações e atividades dos condomínios.
+O Domus oferece ferramentas completas para gerenciamento de:
+- Visitantes e autorizações
+- Encomendas
+- Reservas de áreas comuns
+- Registro de ocorrências
+- Comunicação interna
 
-Facilitar a comunicação entre moradores e administração.
+## 🎯 Objetivos
 
-Organizar o controle de visitantes e encomendas.
+- Centralizar informações e atividades dos condomínios
+- Facilitar a comunicação entre moradores e administração
+- Organizar o controle de visitantes e encomendas
+- Permitir gerenciamento de reservas de áreas comuns
+- Facilitar registro e acompanhamento de ocorrências
 
-Permitir o gerenciamento de reservas de áreas comuns.
+## 📦 Escopo do sistema
 
-Facilitar o registro e acompanhamento de ocorrências.
+### ✅ Funcionalidades contempladas
 
-3. Escopo do sistema
+- Cadastro e gerenciamento de condomínios, unidades e moradores
+- Gerenciamento de usuários e permissões
+- Autorização e registro de visitantes
+- Registro e acompanhamento de encomendas
+- Reserva de espaços compartilhados
+- Registro e acompanhamento de ocorrências
+- Publicação de comunicados
+- Envio de notificações aos moradores
 
-3.1 Funcionalidades contempladas
+### ❌ Funcionalidades fora do escopo
 
-Cadastro e gerenciamento de condomínios, unidades e moradores.
+- Pagamento de taxas condominiais
+- Gestão contábil e financeira do condomínio
+- Monitoramento de câmeras de segurança
+- Controle físico de portões e fechaduras
+- Integração com dispositivos de automação residencial
 
-Gerenciamento de usuários e permissões.
+## 👥 Usuários do sistema
 
-Autorização e registro de visitantes.
+| Função | Descrição |
+|--------|-----------|
+| **Administrador** | Gerencia a plataforma, cadastra condomínios e administra as contas das administradoras |
+| **Síndico** | Gerencia as atividades do condomínio, moradores, comunicados e ocorrências |
+| **Morador** | Autoriza visitantes, reserva áreas comuns, consulta encomendas e registra ocorrências |
+| **Porteiro** | Registra visitantes, verifica autorizações e controla o recebimento de encomendas |
 
-Registro e acompanhamento de encomendas.
+## 🛠️ Tecnologias
 
-Reserva de espaços compartilhados.
+(Informações sobre tecnologias, stack e requisitos serão adicionadas posteriormente)
 
-Registro e acompanhamento de ocorrências.
+## 📦 Instalação
 
-Publicação de comunicados.
+(Instruções de instalação serão adicionadas)
 
-Envio de notificações aos moradores.
+## 🚀 Uso
 
-3.2 Funcionalidades fora do escopo
+(Instruções de uso serão adicionadas)
 
-Pagamento de taxas condominiais.
+---
 
-Gestão contábil e financeira do condomínio.
-
-Monitoramento de câmeras de segurança.
-
-Controle físico de portões e fechaduras.
-
-Integração com dispositivos de automação residencial.
-
-4. Usuários do sistema
-
-Usuário
-
-Descrição
-
-Administrador
-
-Gerencia a plataforma, cadastra condomínios e administra as contas das administradoras.
-
-Síndico
-
-Gerencia as atividades do condomínio, moradores, comunicados e ocorrências.
-
-Morador
-
-Autoriza visitantes, reserva áreas comuns, consulta encomendas e registra ocorrências.
-
-Porteiro
-
-Registra visitantes, verifica autorizações e controla o recebimento de encomendas.
+*Desenvolvido para facilitar a gestão condominial e melhorar a qualidade de vida dos residentes.*
