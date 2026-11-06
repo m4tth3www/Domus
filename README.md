@@ -2,7 +2,7 @@
 
 A plataforma de gestão de condomínios residenciais que centraliza e facilita processos administrativos e operacionais, melhorando a comunicação entre moradores, síndicos, porteiros e administradoras.
 
-## 📋 Visão geral
+## Visão geral
 
 O Domus oferece ferramentas completas para gerenciamento de:
 - Visitantes e autorizações
@@ -11,7 +11,7 @@ O Domus oferece ferramentas completas para gerenciamento de:
 - Registro de ocorrências
 - Comunicação interna
 
-## 🎯 Objetivos
+## Objetivos
 
 - Centralizar informações e atividades dos condomínios
 - Facilitar a comunicação entre moradores e administração
@@ -19,9 +19,9 @@ O Domus oferece ferramentas completas para gerenciamento de:
 - Permitir gerenciamento de reservas de áreas comuns
 - Facilitar registro e acompanhamento de ocorrências
 
-## 📦 Escopo do sistema
+## Escopo do sistema
 
-### ✅ Funcionalidades contempladas
+### Funcionalidades contempladas
 
 - Cadastro e gerenciamento de condomínios, unidades e moradores
 - Gerenciamento de usuários e permissões
@@ -32,7 +32,7 @@ O Domus oferece ferramentas completas para gerenciamento de:
 - Publicação de comunicados
 - Envio de notificações aos moradores
 
-### ❌ Funcionalidades fora do escopo
+### Funcionalidades fora do escopo
 
 - Pagamento de taxas condominiais
 - Gestão contábil e financeira do condomínio
@@ -40,7 +40,7 @@ O Domus oferece ferramentas completas para gerenciamento de:
 - Controle físico de portões e fechaduras
 - Integração com dispositivos de automação residencial
 
-## 👥 Usuários do sistema
+## Usuários do sistema
 
 | Função | Descrição |
 |--------|-----------|
@@ -49,15 +49,15 @@ O Domus oferece ferramentas completas para gerenciamento de:
 | **Morador** | Autoriza visitantes, reserva áreas comuns, consulta encomendas e registra ocorrências |
 | **Porteiro** | Registra visitantes, verifica autorizações e controla o recebimento de encomendas |
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 (Informações sobre tecnologias, stack e requisitos serão adicionadas posteriormente)
 
-## 📦 Instalação
+## Instalação
 
 (Instruções de instalação serão adicionadas)
 
-## 🚀 Uso
+## Uso
 
 (Instruções de uso serão adicionadas)
 
