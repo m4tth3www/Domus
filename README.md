@@ -83,23 +83,23 @@ flowchart LR
         API["Servidor / API (Node.js/Express)"]
         BD[("Banco de Dados PostgreSQL")]
     end
-    
+
     Morador["Morador (Web App)"]
     Sindico["Síndico (Web App)"]
     Porteiro["Porteiro (Web App)"]
     Admin["Administradora (Web App)"]
-    
+
     Morador -->|"HTTPS/JSON"| API
     Sindico -->|"HTTPS/JSON"| API
     Porteiro -->|"HTTPS/JSON"| API
     Admin -->|"HTTPS/JSON"| API
-    
+
     API -->|"SQL"| BD
-    
+
     classDef user fill:#e3f2fd,stroke:#1976d2,stroke-width:2px;
     classDef system fill:#fff3e0,stroke:#fb8c00,stroke-width:2px;
-    classDef data fill:#e8f5e9,:#2e7d32,stroke-width:2px;
-    
+    classDef data fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+
     class Morador,Sindico,Porteiro,Admin user;
     class API system;
     class BD data;
@@ -114,31 +114,31 @@ flowchart LR
     subgraph "Cliente Web"
         Client["Navegador Web (React)"]
     end
-    
+
     subgraph "Servidor/API"
         Auth["Módulo: Autenticação"]
-        Reserves["Módulo: Reservas"] 
+        Reserves["Módulo: Reservas"]
         Comm["Módulo: Comunicações"]
         Data["Módulo: Acesso a Dados"]
         API["Aplicação Node.js/Express"]
     end
-    
+
     subgraph "Infraestrutura"
         DB[("Banco de Dados PostgreSQL")]
         Cache["Redis - Sessões e Cache"]
     end
-    
+
     Client -->|"HTTPS/JSON"| API
     API -->|"HTTPS/JSON"| Auth
     API -->|"HTTPS/JSON"| Reserves
     API -->|"HTTPS/JSON"| Comm
     API -->|"SQL"| DB
     API -->|"HTTP"| Cache
-    
-    classDef container fill:#e1f5fe,:#01579b,stroke:#01579b,stroke-width:2px;
-    classDef module fill:#f3e5f5,#6a1b9a,stroke:#6a1b9a,stroke-width:1px,stroke-dasharray: 5 5;
-    classDef storage fill:#e8f5e9,#2e7d32,stroke:#2e7d32,stroke-width:2px;
-    
+
+    classDef container fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef module fill:#f3e5f5,stroke:#6a1b9a,stroke-width:1px,stroke-dasharray: 5 5;
+    classDef storage fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+
     class Auth,Reserves,Comm,Data,API container;
     class DB,Cache storage;
 ```
@@ -151,29 +151,35 @@ flowchart LR
 flowchart TD
     subgraph Auth ["Módulo: Autenticação"]
         direction LR
+        AuthorizationHeader["Authorization Header"]
     end
+
     subgraph Reserves ["Módulo: Reservas"]
         direction LR
+        ValidacaoHorario["Validação de horário"]
     end
+
     subgraph Comm ["Módulo: Comunicações"]
         direction LR
+        EnvioNotificacoes["Envio de notificações"]
     end
+
     subgraph Data ["Módulo: Acesso a Dados"]
         direction LR
+        QueriesSQL["Queries SQL"]
+        BancoDados["Banco de dados"]
     end
-    
-    Auth -->|" sessão "|\ Authorization Header
-    Reserves -->|" validação "|\ de horário
-    Comm -->|" envio "|\ de notificações
-    Data -->|" queries SQL "|\ ao banco
-    
-    classDef layer fill:#fffde7,#f57f17,stroke:#f57f17,stroke-width:2px;
-    classDef business fill:#e3f2fd,#1976d2,stroke:#1976d2,stroke-width:2px;
-    
-    class Auth business;
-    class Reserves business;
-    class Comm business;
-    class Data business;
+
+    Auth -->|"sessão"| AuthorizationHeader
+    Reserves -->|"validação"| ValidacaoHorario
+    Comm -->|"envio"| EnvioNotificacoes
+    Data -->|"queries SQL"| BancoDados
+
+    classDef layer fill:#fffde7,stroke:#f57f17,stroke-width:2px;
+    classDef business fill:#e3f2fd,stroke:#1976d2,stroke-width:2px;
+
+    class Auth,Reserves,Comm,Data business;
+    class AuthorizationHeader,ValidacaoHorario,EnvioNotificacoes,QueriesSQL,BancoDados layer;
 ```
 
 **Camadas:** Apresentação (interface React), Negócio (módulos Auth, Reserves, Comm), Dados (módulo Data com queries SQL).
