@@ -445,5 +445,3 @@ A implantação só será autorizada quando:
 | RNF03 — até 1.000 usuários simultâneos | 1.5, 1.6 | Teste de carga antes da implantação | Pode exigir ajuste de capacidade e escalabilidade |
 | RNF04 — TLS 1.2+ | 1.5 | Segurança configurada antes da homologação | Certificados e configuração segura |
 | RF01–RF10 e RN01–RN05 | 1.2, 1.3, 1.4, 1.6 | Desenvolvimento, integração e homologação | Esforço de implementação e risco de regras incorretas |
-
----
