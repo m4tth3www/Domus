@@ -447,19 +447,3 @@ A implantação só será autorizada quando:
 | RF01–RF10 e RN01–RN05 | 1.2, 1.3, 1.4, 1.6 | Desenvolvimento, integração e homologação | Esforço de implementação e risco de regras incorretas |
 
 ---
-
-## 11. Considerações finais
-
-O plano transforma as decisões arquiteturais da Etapa 1 em pacotes de trabalho, dependências, estimativas, custos, riscos, aquisições e responsabilidades. A escolha de React reduz a duplicação de desenvolvimento de interfaces nativas; PostgreSQL exige atenção à modelagem e integridade; e AWS oferece flexibilidade operacional, embora introduza custos recorrentes e dependência de fornecedor.
-
-A recomendação é iniciar com a alternativa AWS após uma prova de conceito e validação de custos, mantendo documentação, backups exportáveis e procedimentos de saída. O sucesso do projeto dependerá não apenas da implementação, mas também dos testes, da observabilidade, da capacitação e da preparação da equipe que assumirá a operação.
-
----
-
-## Referências
-
-- CIESA. **Etapa 2 — Do projeto ao plano de projeto: Projetos de Sistemas**. Material didático fornecido para a atividade.
-- PMI. **Guia PMBOK**, 7ª edição. Domínios de Planejamento, Incerteza e Trabalho.
-- BROOKS, Frederick P. **The Mythical Man-Month**.
-- BRASIL. **Lei nº 14.133, de 1º de abril de 2021**. Lei de Licitações e Contratos Administrativos.
-- Repositório do projeto: [m4tth3www/Domus](https://github.com/m4tth3www/Domus). README.md — requisitos, diagramas C4, comunicação cliente-servidor, ADRs e rastreabilidade.
